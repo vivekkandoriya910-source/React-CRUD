@@ -63,12 +63,12 @@ function App() {
 
 
 
-  // const search = () => {
-  //   const searching = records.filter((item, index) => {
-  //     return item.fname.toLowerCase().includes(searchdata.toLowerCase());
-  //   })
-  //   setRecords(searching);
-  // }
+  const trearch = () => {
+    const searching = records.filter((item, index) => {
+      return item.fname.toLowerCase().includes(searchdata.toLowerCase());
+    })
+    setRecords(searching);
+  }
 
   const search = (field) => {
     let searched = [];
